@@ -1,0 +1,40 @@
+input {
+  margin-top: 10px;
+  border-radius: 5px;
+  min-width: 100px;
+  min-height: 20px;
+}
+
+/* input:invalid::placeholder {
+  color: red;
+  
+} */
+
+input:invalid:required {
+  background-image: linear-gradient(to right, white, lightgrey);
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+.btnSearch {
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btnSearch:hover {
+  background: #1d49aa;
+}
+
+.btnSearch:active {
+  background-color: #808080;
+}

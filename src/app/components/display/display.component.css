@@ -1,0 +1,16 @@
+.container {
+    margin: 0, auto;
+}
+
+img {
+    display: inline;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#mainInfo {
+    font-size: 30px;
+    display: none;
+}
